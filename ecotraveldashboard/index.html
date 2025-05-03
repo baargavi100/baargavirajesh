@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌿 EcoTravel Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    
+   
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+ 
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+</head>
+
+  
+
+    
+
+</head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌿 EcoTravel Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🌿 EcoTravel Dashboard: AI & Green Skills</h1>
+    </header>
+
+    <section class="filter">
+        <label for="user-select">Select User:</label>
+        <select id="user-select">
+            <option value="all">All Users</option>
+            <option value="Sam">Sam</option>
+            <option value="Ana">Ana</option>
+            <option value="Leo">Leo</option>
+            <option value="Meena">Meena</option>
+        </select>
+    </section>
+
+    <section class="metrics">
+        <div class="metric">
+            <h3>🌍 Total Carbon Saved (kg)</h3>
+            <p id="carbon-saved">0 kg</p>
+        </div>
+        <div class="metric">
+            <h3>🧠 Average AI Score</h3>
+            <p id="ai-score">0 %</p>
+        </div>
+        <div class="metric">
+            <h3>📘 Green Skills Gained</h3>
+            <p id="skills-gained">0</p>
+        </div>
+    </section>
+
+    <section class="charts">
+      <div>
+          <h3>🚴 Green Routes Used</h3>
+          
+          <canvas id="route-pie"></canvas>
+      </div>
+  </section>
+  
+
+    <footer>
+        <p>Created by YourName | EcoTravel Dashboard</p>
+    </footer>
+    <button class="animated-button">Explore Routes</button>
+    <button class="animated-button">View Stats</button>
+    <button class="animated-button">Learn More</button>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
